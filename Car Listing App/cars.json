@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "brand": "e",
+        "model": "",
+        "year": "2021",
+        "image": "civic",
+        "price": 1,
+        "pros": [
+            "vo",
+            "moll",
+            "eu "
+        ],
+        "cons": [
+            "culpa",
+            "ex si"
+        ]
+    },
+    {
+        "id": 2,
+        "brand": "l",
+        "model": "mo",
+        "year": "2021",
+        "image": "giulietta",
+        "price": 1,
+        "pros": [
+            "enim ",
+            "in",
+            "qwe"
+        ],
+        "cons": [
+            "cul",
+            "ess"
+        ]
+    },
+    {
+        "id": 3,
+        "brand": "ir",
+        "model": "ea",
+        "year": "2021",
+        "image": "mini",
+        "price": 3,
+        "pros": [
+            "ut qu",
+            "ni",
+            "i"
+        ],
+        "cons": [
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "brand": "ir",
+        "model": "ea",
+        "year": "2021",
+        "image": "mustang",
+        "price": 3,
+        "pros": [
+            "ut qu",
+            "ni",
+            "i"
+        ],
+        "cons": [
+            "ert"
+        ]
+    },
+    {
+        "id": 5,
+        "brand": "ir",
+        "model": "ea",
+        "year": "2021",
+        "image": "soul",
+        "price": 3,
+        "pros": [
+            "ut qu",
+            "ni",
+            "is"
+        ],
+        "cons": [
+            "tyu"
+        ]
+    }
+]
