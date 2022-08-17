@@ -22,8 +22,10 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             ScrollView {
-                VStack {
-                    ContentViewRow(image: cars.models.image, brand: cars.models.brand)
+                LazyVStack {
+                  ForEach(cars.models) { model in
+                    ContentViewRow(image: model.image, brand: model.brand)
+                  }
                 }
                 .padding(.bottom, 20)
             }
