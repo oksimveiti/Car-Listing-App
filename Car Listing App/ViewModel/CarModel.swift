@@ -10,7 +10,7 @@ import Foundation
 class CarModel: ObservableObject {
     
     // List of modules
-    @Published var model = [Model]()
+    @Published var models = [Model]()
     
     
     init() {
@@ -36,7 +36,7 @@ class CarModel: ObservableObject {
             let modules = try jsonDecoder.decode([Model].self, from: jsonData)
             
             // Assign parsed modules to modules property
-            self.model = modules
+            self.models = modules
             
         }
          

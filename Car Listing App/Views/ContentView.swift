@@ -23,7 +23,7 @@ struct ContentView: View {
             
             ScrollView {
                 VStack {
-                    ContentViewRow(image: cars.model.image, brand: cars.model.brand)
+                    ContentViewRow(image: cars.models.image, brand: cars.models.brand)
                 }
                 .padding(.bottom, 20)
             }
