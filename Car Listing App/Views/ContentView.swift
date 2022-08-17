@@ -20,15 +20,11 @@ struct ContentView: View {
         ZStack {
             Color.offWhite
                 .ignoresSafeArea()
-            
-            ScrollView {
-                LazyVStack {
-                  ForEach(cars.models) { model in
-                    ContentViewRow(image: model.image, brand: model.brand)
-                  }
-                }
-                .padding(.bottom, 20)
-            }
+
+          List(cars.models) { model in
+            ContentViewRow(image: model.image, brand: model.brand)
+          }
+          .padding(.bottom, 20)
         }
             
     }
